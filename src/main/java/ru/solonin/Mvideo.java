@@ -16,13 +16,8 @@ public class Mvideo {
         cameras.add(name);
     }
 
-    public void printCameraNames(){
-        for(Sony s : cameras) {
-            System.out.println(s.getModelName());
-        }
-    }
 
-    public void printCameraNames1(){
+    public void printCameraNames(){
         Iterator<Sony> iterator = cameras.iterator();
         if(iterator.hasNext()){
             do{

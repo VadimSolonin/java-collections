@@ -21,7 +21,7 @@ public class Main {
         Eldorado eldorado = new Eldorado("St. Petersburg, Kolomyazhsky Ave. 17", 2502525);
         Mvideo mvideo = new Mvideo("St. Petersburg, st. Academician Pavlova, 5 lit. B", 6007775);
 
-        System.out.println("Ниже представлена реализация в классе DNS цикла for each с коллекцией Map.");
+        System.out.println("Ниже представлена реализация в классе DNS цикла `for each` с коллекцией Map.");
         System.out.println("Добавим несколько моделей камер. Map:");
         dns.addSonyModel(sonyA7);
         dns.addSonyModel(sonyA7_usedGoods);
@@ -47,7 +47,7 @@ public class Main {
         yarkiy.printCameraNames();
 
         System.out.println(" ");
-        System.out.println("Ниже представлена реализация в классе Eldorado цикла while с коллекцией Set.");
+        System.out.println("Ниже представлена реализация в классе Eldorado цикла `while` с коллекцией Set.");
         System.out.println("Добавим несколько моделей камер. Set:");
         eldorado.addSonyModel(alphaSLTA99);
         eldorado.addSonyModel(alphaSLTA99_usedGoods);
@@ -64,13 +64,13 @@ public class Main {
         System.out.println("Добавим несколько моделей камер. Queue:");
         mvideo.addSonyModel(alphaA6700);
         mvideo.addSonyModel(alphaA6700_usedGoods);
-        mvideo.printCameraNames1();
+        mvideo.printCameraNames();
         System.out.println("Элемент `Sony Alpha a6700 used goods` есть в Queue?");
         mvideo.findQueueValue(alphaA6700_usedGoods);
         System.out.println("Теперь удалим элемент.");
         mvideo.deleteQueueValue(alphaA6700_usedGoods);
         System.out.println("Результат Queue после удаления:");
-        mvideo.printCameraNames1();
+        mvideo.printCameraNames();
     }
 
 
